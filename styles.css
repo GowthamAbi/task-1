@@ -1,0 +1,366 @@
+:root{
+--primary:#fa7436;
+--scondary:#FFFF;
+--font:"Volkhov", serif;
+--subfont:"Poppins", sans-serif;
+}
+
+
+#hero{
+  background-color: #FEFCFB;
+  padding: 20px;
+}
+  .hero{
+    background-color: #FEFCFB;
+    margin: 0 15% 0 15%;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:var(--scondary);
+    background-color: #FEFCFB;
+  }
+  
+  #logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  #logo #t{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: var(--font);
+    font-weight: 1000;
+    font-style: normal;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.876);
+    color: black;
+    margin-right: 5px;
+  }
+  
+  .logo-icon {
+    width: 20px; /* Adjust size as needed */
+    height: 20px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    font-family:var(--subfont);
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    gap: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .auth-buttons .login {
+    text-decoration: none;
+    color:var(--primary);
+    font-size: 16px;
+  }
+  
+  .auth-buttons .signup {
+    text-decoration: none;
+    background-color:var(--primary);
+    color:var(--scondary);
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .content{
+    display: flex;
+  }
+  .hum-img1 img
+  {
+    width: 700px;
+    height: 500px;
+  
+  }
+  .text1{
+    margin-top: 10vh;
+    margin-bottom: 0;
+    width:500px;
+    height: 486px;
+    text-align: start;
+    
+  }
+  #text1{
+    font-family: var(--font);
+    font-size: 50px;
+    font-weight: bold;
+  }
+  #text1 span{
+    color: var(--primary);
+  }
+  #text2{
+    display: flex;
+    font-family: var(--subfont);
+    width: 400px;
+   text-align: justify;
+  }
+  #text3{
+    margin-top: 25px;
+    width: 178px;
+    height: 5vh;
+    border: 2px solid var(--primary);
+    padding: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--subfont);
+   color: #fa7436;
+   font-size: larger;
+   border-radius: 4px;
+
+  }
+  .location {
+    background-color: #FFFF;
+    display: flex;
+    gap: 4vw;
+    width: 700px;
+    margin-left: 10vw;
+    padding: 20px;
+    font-family: var(--subfont);
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;
+    text-align: justify;
+  }
+  
+  .location > div {
+    text-align: justify;
+  }
+  
+  .location h3 {
+    font-size: 16px; 
+    margin: 0;
+    display: flex;
+    align-items: center;
+   
+    gap: 5px; 
+    text-align: justify;
+  }
+  
+  .location p {
+    font-size: 14px;
+    margin-top: 5px; 
+    text-align: justify;
+  }
+  
+  #explore {
+    font-family: var(--subfont);
+    background-color: #fa7436;
+    color: #FFF;
+    width: 120px;
+    height: 50px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 0; 
+    text-align: center;
+  }
+  
+  #explore p {
+    margin: 0; 
+    font-size: 16px;
+  }
+  
+  #explore:hover {
+    background-color: #d86231;
+  }
+  .things{
+    margin: 0px;
+    background-color:#F7F8FC ;
+   
+  }
+ 
+ 
+.need {
+  width: 100%;
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f7f8fc; 
+  
+ 
+
+}
+.fl{
+  display: flex;
+  margin-left: 40%;
+  gap: 2rem;
+}
+.fl img{
+  width: 150px;
+}
+#text-n h1 {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: var(--font);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#text-n span {
+  color: #fa7436; 
+}
+
+#text-ns {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 10px;
+  font-family: var(--subfont);
+  color: #666;
+  margin: 10px auto 30px;
+  line-height: 1.5;
+  width: 350px;
+  text-align: center;
+
+}
+
+
+.tasks {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.task {
+  background-color: #ffffff;
+  width: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.task img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 15px;
+}
+
+.task h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+  font-family: var(--font);
+}
+
+.task p {
+  font-size: 14px;
+  color: #666;
+  font-family: var(--subfont);
+  line-height: 1.4;
+}
+.deals{
+  width: 100%;
+  padding: 2%;
+  background-color: #FEFCFB;
+
+}
+.deal-text{
+ margin-left: 35%;
+ text-align: center;
+ line-height: 1vh;
+ font-family: var(--font);
+}
+.deal-text span{
+  color: #fa7436;
+}
+.deals h1{
+  font-family: var(--font);
+  font-size: 40px;
+  text-align: center;
+  margin-left: -60%;
+}
+.deal-text p{
+ display: flex;
+ flex-wrap: wrap;
+ width: 20vw;
+ padding-left: 6rem;
+ padding-right: 8rem;
+ font-family: var(--subfont);
+ line-height: 1.5;
+margin-left: -5%;
+ 
+ 
+}
+.rate {
+  display: flex;
+  justify-content: center;
+  gap: 20px
+}
+
+.r1, .r2, .r3, .r4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--scondary);
+  width: 270px;
+  height: 426px;
+  gap: 2px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.place {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.location-rating {
+  display: flex;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.location-rating h3 {
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+  flex: 0.2; 
+  margin-left: 1dvw;
+  margin-right: 9vw;
+}
+
+.star {
+  width: 16px;
+  height: 16px;
+}
+
+.location-rating p {
+  font-size: 16px;
+  color: black;
+  margin: 0;
+}
