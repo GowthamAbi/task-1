@@ -317,7 +317,7 @@ margin-left: -5%;
 .rate {
   display: flex;
   justify-content: center;
-  gap: 20px
+  gap: 2rem;
 }
 
 .r1, .r2, .r3, .r4 {
@@ -327,7 +327,7 @@ margin-left: -5%;
   background-color: var(--scondary);
   width: 270px;
   height: 426px;
-  gap: 2px;
+  padding: 1rem;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -341,17 +341,17 @@ margin-left: -5%;
 
 .location-rating {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 .location-rating h3 {
   font-size: 16px;
   color: #333;
   margin: 0;
-  flex: 0.2; 
-  margin-left: 1dvw;
-  margin-right: 9vw;
+  flex: 1; /* Pushes rating to the right */
 }
 
 .star {
